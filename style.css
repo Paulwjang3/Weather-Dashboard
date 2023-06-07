@@ -1,0 +1,29 @@
+.search-history {
+    display: flex;
+    flex-direction: column;
+}
+  
+.day {
+    background: #1a2846;
+    color: white;
+    list-style: none;
+    padding: 10px 20px;
+}
+  
+.five-day-forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.five-day-header {
+    padding: 20px 10px;
+    font-size: 2em;
+}
+  
+.current-weather ul {
+    list-style: none;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
